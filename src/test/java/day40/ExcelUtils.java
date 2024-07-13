@@ -72,7 +72,6 @@ public class ExcelUtils {
         fi = new FileInputStream(xlfile);
         wb = new XSSFWorkbook(fi);
 
-        // Selecciona la hoja por su índice
         ws = wb.getSheetAt(sheetIndex);
 
         // Selecciona la fila y la celda

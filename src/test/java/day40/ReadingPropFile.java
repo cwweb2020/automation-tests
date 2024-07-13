@@ -22,8 +22,11 @@ public class ReadingPropFile {
             propObject.load(file);
 
             // Aquí puedes acceder a las propiedades cargadas
-            String valorPropiedad = propObject.getProperty("filePathWay");
-            System.out.println("Valor de la propiedad: " + valorPropiedad);
+            String filePathWay = propObject.getProperty("filePathWay");
+            String user = propObject.getProperty("user");
+
+            System.out.println("Valor de la propiedad filePathWay: " + filePathWay);
+            System.out.println("Valor de la propiedad user: " + user);
 
         } catch (IOException e) {
             e.printStackTrace();
