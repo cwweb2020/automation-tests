@@ -9,8 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -47,10 +45,12 @@ public class orangeHRMTTest {
             driver.manage().window().maximize();
 
             // Contar y capturar los elementos <h2>
+            System.out.println("verificando la cantidad de tags <h2>");
             int count = driver.findElements(By.tagName("h2")).size();
             System.out.println("Cantidad de tags h2 en la página: " + count);
 
             // Capturar y imprimir el contenido de los elementos <h3>
+            System.out.println("imprimiendo contenido de los tags <h2>");
             for (WebElement element : driver.findElements(By.tagName("h2"))) {
                 System.out.println("Contenido de h2: " + element.getText());
             }
