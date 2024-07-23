@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-14T15:42:31 ART" name="Suite" finished-at="2024-07-14T15:42:44 ART" duration-ms="12962">
+  <suite started-at="2024-07-23T15:09:50 ART" name="Suite" finished-at="2024-07-23T15:09:57 ART" duration-ms="7542">
     <groups>
     </groups>
-    <test started-at="2024-07-14T15:42:31 ART" name="Test" finished-at="2024-07-14T15:42:44 ART" duration-ms="12962">
-      <class name="day42.FirstTestCaseWtestNg">
-        <test-method signature="testH3()[pri:2, instance:day42.FirstTestCaseWtestNg@4c178a76]" started-at="2024-07-14T15:42:44 ART" name="testH3" finished-at="2024-07-14T15:42:44 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testH3 -->
-        <test-method signature="openApp()[pri:0, instance:day42.FirstTestCaseWtestNg@4c178a76]" started-at="2024-07-14T15:42:44 ART" name="openApp" finished-at="2024-07-14T15:42:44 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="endTest()[pri:3, instance:day42.FirstTestCaseWtestNg@4c178a76]" started-at="2024-07-14T15:42:44 ART" name="endTest" finished-at="2024-07-14T15:42:44 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="primero()[pri:0, instance:day42.FirstTestCaseWtestNg@4c178a76]" started-at="2024-07-14T15:42:44 ART" name="primero" finished-at="2024-07-14T15:42:44 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- primero -->
-        <test-method is-config="true" signature="ultimo()[pri:0, instance:day42.FirstTestCaseWtestNg@4c178a76]" started-at="2024-07-14T15:42:44 ART" name="ultimo" finished-at="2024-07-14T15:42:44 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ultimo -->
-      </class> <!-- day42.FirstTestCaseWtestNg -->
+    <test started-at="2024-07-23T15:09:50 ART" name="Test" finished-at="2024-07-23T15:09:57 ART" duration-ms="7542">
       <class name="day42.orangeHRMTTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:day42.orangeHRMTTest@6ad82709]" started-at="2024-07-14T15:42:32 ART" name="setUp" finished-at="2024-07-14T15:42:39 ART" duration-ms="7531" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:day42.orangeHRMTTest@61322f9d]" started-at="2024-07-23T15:09:50 ART" name="setUp" finished-at="2024-07-23T15:09:54 ART" duration-ms="4093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCountAndPrintH2Tags()[pri:0, instance:day42.orangeHRMTTest@6ad82709]" started-at="2024-07-14T15:42:39 ART" name="testCountAndPrintH2Tags" finished-at="2024-07-14T15:42:44 ART" duration-ms="5189" status="PASS">
+        <test-method signature="testCountAndPrintH2Tags()[pri:0, instance:day42.orangeHRMTTest@61322f9d]" started-at="2024-07-23T15:09:54 ART" name="testCountAndPrintH2Tags" finished-at="2024-07-23T15:09:57 ART" duration-ms="3176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountAndPrintH2Tags -->
-        <test-method signature="testImagePresence()[pri:0, instance:day42.orangeHRMTTest@6ad82709]" started-at="2024-07-14T15:42:44 ART" name="testImagePresence" finished-at="2024-07-14T15:42:44 ART" duration-ms="35" status="PASS">
+        <test-method signature="testImagePresence()[pri:0, instance:day42.orangeHRMTTest@61322f9d]" started-at="2024-07-23T15:09:57 ART" name="testImagePresence" finished-at="2024-07-23T15:09:57 ART" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testImagePresence -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day42.orangeHRMTTest@6ad82709]" started-at="2024-07-14T15:42:44 ART" name="tearDown" finished-at="2024-07-14T15:42:44 ART" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day42.orangeHRMTTest@61322f9d]" started-at="2024-07-23T15:09:57 ART" name="tearDown" finished-at="2024-07-23T15:09:57 ART" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

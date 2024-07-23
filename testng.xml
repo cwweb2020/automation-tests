@@ -4,7 +4,7 @@
     <classes>
       <class name="day42.orangeHRMTTest"/>
       <!-- otra -->
-       <class name="day42.FirstTestCaseWtestNg"/>
+       <!-- <class name="day42.FirstTestCaseWtestNg"/> -->
     </classes>
   </test>
 </suite>
